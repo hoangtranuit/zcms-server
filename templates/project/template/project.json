@@ -1,0 +1,19 @@
+{
+  "name": "Demo",
+  "logo": "",
+  "apiBaseUrl": "",
+  "layout": {
+    "api": "",
+    "sidebar": true,
+    "search": true,
+    "logo": true,
+    "footer": true
+  },
+  "auth": {
+    "api": {
+      "login": "",
+      "profile": ""
+    }
+  },
+  "theme": {}
+}

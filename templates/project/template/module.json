@@ -1,0 +1,21 @@
+{
+  "name": "article",
+  "schema": {
+    "id": {
+      "title": "ID"
+    },
+    "date": {
+      "title": "date"
+    }
+  },
+  "table": {
+    "columns": ["id", "thumb", "title", "description", "publisher"]
+  },
+  "api": {
+    "create": "/article/post/create",
+    "update": "",
+    "delete": "",
+    "listing": "",
+    "detail": ""
+  }
+}

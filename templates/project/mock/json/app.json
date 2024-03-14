@@ -1,0 +1,56 @@
+{
+    "routes": [
+        {
+            "path": "/",
+            "title": "Trang chủ",
+            "icon": "home"
+        },
+        {
+            "path": "/posts",
+            "title": "Bài viết",
+            "icon": "post",
+            "items": [
+                {
+                    "path": "/posts/new",
+                    "title": "Bài mới",
+                    "icon": "add"
+                },
+                {
+                    "path": "/posts/outstanding",
+                    "title": "Bài nổi bật",
+                    "icon": "star"
+                }
+            ]
+        },
+        {
+            "path": "/report",
+            "title": "Thống kê",
+            "icon": "chart",
+            "type": "group",
+            "access": "admin",
+            "items": [
+                {
+                    "path": "/report/overview",
+                    "title": "Tổng quan",
+                    "icon": "add"
+                },
+                {
+                    "path": "/report/revenue",
+                    "title": "Doanh thu",
+                    "icon": "money"
+                },
+                {
+                    "path": "/report/user",
+                    "title": "Người dùng",
+                    "icon": "user",
+                    "items": [
+                        {
+                            "path": "/report/user/active",
+                            "title": "Đang hoạt động"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
